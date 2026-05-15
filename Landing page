@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GREENE PINE Youth Wealth Club - Learn. Invest. Grow. Lead. Join a movement focused on financial literacy, entrepreneurship, and leadership development." />
+  <title>GREENE PINE Youth Wealth Club</title>
+
+  <style>
+    :root {
+      --green-dark: #06281E;
+      --green: #0B3D2E;
+      --gold: #C9A227;
+      --white: #ffffff;
+      --muted: #b7b7b7;
+    }
+
+    * {
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      background: var(--green-dark);
+      color: var(--white);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 90px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, var(--green-dark), var(--green));
+    }
+
+    h1 {
+      font-size: 56px;
+      margin: 0;
+      letter-spacing: 3px;
+    }
+
+    .tagline {
+      color: var(--gold);
+      margin-top: 10px;
+      font-size: 18px;
+      letter-spacing: 4px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 14px 28px;
+      background: var(--gold);
+      color: var(--green-dark);
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.85;
+      transform: scale(1.03);
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    h2 {
+      color: var(--gold);
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    p {
+      color: var(--white);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--green);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      transition: 0.3s;
+    }
+
+    ul {
+      padding-left: 20px;
+      color: var(--white);
+    }
+
+    .form-container {
+      background: var(--green);
+      padding: 25px;
+      border-radius: 12px;
+    }
+
+    label {
+      color: var(--gold);
+      font-weight: bold;
+      display: block;
+      margin-top: 10px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 6px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 6px;
+      outline: none;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      background: var(--gold);
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+
+    button:hover {
+      opacity: 0.9;
+    }
+
+    .faq {
+      margin-top: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #041a13;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      margin-top: 15px;
+      color: var(--gold);
+    }
+  </style>
+
+</head>
+
+<body>
+
+<header>
+  <h1>GREENE PINE</h1>
+  <p class="tagline">Learn. Invest. Grow. Lead.</p>
+  <a class="btn" href="#apply">Apply Now</a>
+</header>
+
+<section>
+  <h2>Who We Are</h2>
+  <p>
+    GREENE PINE is a youth wealth and leadership movement focused on transforming young people into
+    financially literate, entrepreneurial, and disciplined leaders through practical education and real-world experience.
+  </p>
+</section>
+
+<section>
+  <h2>What We Offer</h2>
+  <div class="grid">
+    <div class="card">Financial Literacy Training</div>
+    <div class="card">Entrepreneurship Development</div>
+    <div class="card">Investment Education</div>
+    <div class="card">Leadership Building</div>
+    <div class="card">Real Business Projects</div>
+    <div class="card">Mentorship & Networking</div>
+  </div>
+</section>
+
+<section>
+  <h2>Why Join GREENE PINE?</h2>
+  <ul>
+    <li>Practical money and business skills</li>
+    <li>Real-world project experience</li>
+    <li>Leadership and discipline training</li>
+    <li>Mentorship and networking opportunities</li>
+    <li>Early path to entrepreneurship and investing</li>
+  </ul>
+</section>
+
+<section id="apply">
+  <h2>Membership Application</h2>
+  <p>Fill in the form below to apply for membership.</p>
+
+  <div class="form-container">
+    <form onsubmit="event.preventDefault(); alert('Application submitted successfully. We will contact you soon.');">
+
+```
+  <label>Full Name</label>
+  <input type="text" required />
+
+  <label>Email Address</label>
+  <input type="email" required />
+
+  <label>Phone Number</label>
+  <input type="text" required />
+
+  <label>Age</label>
+  <input type="number" required />
+
+  <label>Why do you want to join?</label>
+  <textarea rows="4" required></textarea>
+
+  <button type="submit">Submit Application</button>
+</form>
+```
+
+  </div>
+
+  <p class="faq">
+    Need help? Contact us on WhatsApp:
+    <br />
+    <a class="whatsapp" href="#">Chat with GREENE PINE Support</a>
+  </p>
+</section>
+
+<footer>
+  © GREENE PINE Youth Wealth Club | Learn. Invest. Grow. Lead.
+</footer>
+
+</body>
+</html>
